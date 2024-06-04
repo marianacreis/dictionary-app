@@ -1,20 +1,18 @@
 import React from "react";
+import "./Photos.css";
 
 export default function Photos(props) {
   if (props.photos) {
     return (
-      <div>
+      <section className="Photos">
         {props.photos.map(function (photo, index) {
           return (
-            <img
-              src={photo.src.landscape}
-              key={index}
-              alt={photo.alt}
-              width={200}
-            />
+            <a href={photo.src.original} target="_blank" rel="noreferrer">
+              <img src={photo.src.landscape} key={index} alt={photo.alt} />
+            </a>
           );
         })}
-      </div>
+      </section>
     );
   } else {
     return null;

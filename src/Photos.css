@@ -1,0 +1,18 @@
+.Photos {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Photos img {
+  width: 300px;
+  border-radius: 3px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.Photos img:hover {
+  opacity: 0.7;
+}

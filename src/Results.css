@@ -1,0 +1,17 @@
+section .word-and-phonetic {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px 0;
+}
+
+.Results .word-and-phonetic h2 {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.Results .word-and-phonetic h3 {
+  color: rgba(0, 0, 0, 0.538);
+  margin-bottom: 10px;
+  margin-top: 0;
+}

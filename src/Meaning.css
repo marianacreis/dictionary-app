@@ -1,0 +1,28 @@
+.Meaning {
+  margin: 20px auto;
+  padding: 10px 0;
+}
+
+.Meaning-text {
+  margin-left: 30px;
+}
+
+.Meaning-text h2 {
+  margin-bottom: 10px;
+}
+
+.Meaning-text p {
+  color: #494242;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.Meaning-text .Definition {
+  margin-bottom: 8px;
+}
+
+.Meaning-text .Example {
+  font-style: italic;
+  font-size: 13px;
+}
