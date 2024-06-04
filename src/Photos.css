@@ -16,3 +16,10 @@
 .Photos img:hover {
   opacity: 0.7;
 }
+
+@media (max-width: 900px) {
+  .Photos {
+    padding: 5px 0;
+    text-align: center;
+  }
+}

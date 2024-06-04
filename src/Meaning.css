@@ -26,3 +26,13 @@
   font-style: italic;
   font-size: 13px;
 }
+
+@media (max-width: 900px) {
+  .Meaning-text {
+    margin: 5px 13px;
+  }
+
+  .Meaning-text h2 {
+    margin-bottom: 5px;
+  }
+}
